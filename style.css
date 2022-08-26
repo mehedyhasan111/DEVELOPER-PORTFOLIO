@@ -1,3 +1,46 @@
-h2{
-    color: blue;
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+   
+    
+  
+}
+
+#name{
+    color: blueviolet;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.button{
+    font-size: 25px;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 1%;
+    border: 1px solid black;
+    color: white;
+}
+
+section{
+    display: flex;
+}
+
+.top-banner{
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width: 50%;
+    padding-top: 2%;
+    margin-left: 2%;
+    
+}
+
+.half-width img{
+    width: 80%;
 }
